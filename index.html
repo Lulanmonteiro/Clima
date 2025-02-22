@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌤️ Previsão do Tempo</h1>
+        <input type="text" id="cidade" placeholder="Digite o nome da cidade">
+        <button onclick="buscarClima()">Buscar</button>
+        <div id="resultado" class="hidden">
+            <h2 id="cidade-nome"></h2>
+            <p id="descricao"></p>
+            <img id="icone" src="" alt="Ícone do clima">
+            <p><strong>🌡 Temperatura:</strong> <span id="temperatura"></span>°C</p>
+            <p><strong>💨 Vento:</strong> <span id="vento"></span> km/h</p>
+            <p><strong>💧 Umidade:</strong> <span id="umidade"></span>%</p>
+            <p><strong>🌡 Sensação térmica:</strong> <span id="sensacao"></span>°C</p>
+            <p><strong>🛠 Pressão:</strong> <span id="pressao"></span> hPa</p>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
