@@ -1,0 +1,109 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+.container {
+    width: 90%; 
+    max-width: 400px; 
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    transition: 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center; 
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+::placeholder {
+    color: #ddd;
+}
+
+button {
+    width: 100%;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+#resultado {
+    margin-top: 15px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: center; /* Centraliza o subtítulo */
+}
+
+#icone {
+    width: 80px;
+    margin: 10px auto; /* Centraliza a imagem horizontalmente */
+    display: block; /* Garante que a imagem se comporte como um bloco */
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dado {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 15px;
+    border-radius: 8px;
+    width: 100%;
+    justify-content: center;
+}
+
+.icone-clima {
+    width: 24px;
+    height: 24px;
+}
